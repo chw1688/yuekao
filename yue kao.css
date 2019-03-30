@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+.box{
+    width:530px;
+    height:360px;
+    margin: 50px auto;
+    border: 1px solid #888888;
+}
+.box>p{
+    font-size: 15px;
+    color:#7c71a5;
+    margin: 10px 20px;
+}
+.box p span{
+    font-size: 25px;
+    color: #493188;
+}
+.top-1{
+    width:490px;
+    height:130px;
+    background: url("bg1.jpg");
+    background-size:100% 100%;
+    margin: 10px 20px;
+}
+.top-2{
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,.3);
+
+}
+.empty{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: url("0.jpg") no-repeat;
+    background-size:100% 100%;
+    overflow: hidden;
+   float: left;
+    margin: 40px 20px;
+}
+.empty p{
+    width:100%;
+    height:100%;
+}
+.empty p:hover{
+    background-color:rgba(250,250,250,.5);
+}
+ .language{
+    width:100px;
+    height:80px;
+   float: left;
+     margin: 25px 0;
+}
+.language p{
+    color:#ffffff;
+    margin: 5px 10px;
+}
+.language p:first-of-type{
+    font-size:15px;
+}
+.language p:nth-child(2){
+    font-size:13px;
+}
+.language p:nth-child(3){
+    font-size: 13px;
+    width:70px;
+    height:20px;
+    text-align: center;
+    line-height:20px ;
+    border-radius:15px;
+   border:1px solid #ffffff;
+}
+.language p:nth-child(3):hover{
+    background-color: rgba(61,42,116,.7);
+}
+.top-2 ul{
+  float: left;
+    margin: 25px 10px;
+}
+.top-2 ul li{
+    width:82px;
+    height:82px;
+    float: left;
+    margin: 0 5px;
+    background-color: #fff;
+}
+.top-2 ul li p{
+    width:85%;
+    height:90%;
+    margin: 3px 3px;
+    float: right;
+}
+.top-2 ul li p:hover{
+    float: left;
+}
+.top-2 ul li p img{
+    width:100%;
+    height:100%;
+}
+
+.bottom-1{
+    width:490px;
+    height:130px;
+    background: url("5.jpg");
+    background-size:100% 100%;
+    margin: 10px 20px;
+}
+.bottom-2{
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,.3);
+
+}
+.bottom-2 ul{
+    float: left;
+    margin: 25px 10px;
+}
+.bottom-2 ul li{
+    width:82px;
+    height:82px;
+    float: left;
+    background-color: #fff;
+    margin: 0 5px;
+}
+
+.bottom-2 ul li p{
+    width:85%;
+    height:90%;
+    margin: 3px 3px;
+    float: right;
+}
+.bottom-2 ul li p:hover{
+    float: left;
+}
+.bottom-2 ul li p img{
+    width:100%;
+    height:100%;
+}
